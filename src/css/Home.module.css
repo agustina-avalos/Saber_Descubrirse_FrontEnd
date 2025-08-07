@@ -1,0 +1,79 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  background-color: #EDE3FB;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-size: cover;
+  min-height: 100vh; /* ocupa toda la pantalla */
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.section {
+  padding: 4rem 5rem;
+  font-size: 20px;
+}
+
+.Title{
+  font-size: 40px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.introTitle {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  
+}
+.containerintroTitle  {
+  margin-right: 50%;
+  margin-top: 1%;
+  text-align: left;
+  font-size: 20px;
+}
+.containerLogo {
+  margin-left: 60%;
+  position:absolute;
+  top: 20%;
+
+}
+
+.introImage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.introText {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.footerBlock {
+  margin: 1rem;
+}
+
+.socialIcon {
+  width: 24px;
+  margin: 0 0.5rem;
+  vertical-align: middle;
+}
