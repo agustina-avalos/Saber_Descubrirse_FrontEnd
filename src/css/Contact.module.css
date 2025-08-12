@@ -1,7 +1,7 @@
 
 .cardList {
-  display: flex;
-  flex-direction: column;
+  display:block;
+  flex-direction: column; /* ✅ esto es lo importante */
   align-items: center;
   gap: 2rem;
   margin-top: 2rem;
@@ -11,27 +11,27 @@
 
 .card {
   display: flex;
-  flex-direction: row;
+  flex-direction: row; /* imagen y contenido en fila */
   align-items: flex-start;
-  background-color: #fff;
+  background-color: #FDEC6F;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 20px;
   max-width: 1000px;
   margin: 20px auto;
   font-family:'Times New Roman', Times, serif;
-  gap: 20px; 
+  gap: 20px; /* espacio entre imagen y texto */
 }
 
 .profilepic img {
   width: 150px;
-  height: 250px;
+  height: 150px;
   object-fit: cover;
-  border-radius: 15%;
+  border-radius: 50%;
 }
 
 .cardcontent {
-  flex: 1;
+  flex: 1; /* para que el texto use el resto del espacio */
 }
 
 .cardcontent h1 {
