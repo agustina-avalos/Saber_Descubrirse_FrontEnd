@@ -12,7 +12,7 @@ function Navbar() {
         <Link  to="/professional"  className={styles.navItem}><a className={styles.link} href="#professionals">Profesionales</a></Link>
         <Link className={styles.navItem}><a className={styles.link} href="#contact">Contacto</a></Link>
         <Link className={styles.navItem}><a className={styles.link} href="#research">Investigaciones</a></Link>
-        <Link className={styles.navItem}><button className={styles.button}>Ingresar</button></Link>
+        <Link  to="/admin"  className={styles.navItem}><button className={styles.button}>Ingresar</button></Link>
       </ul>
     </nav>
   );
