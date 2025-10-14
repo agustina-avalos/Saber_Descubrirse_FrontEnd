@@ -1,0 +1,74 @@
+.profileContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  min-height: 100vh;
+
+}
+
+.profileCard {
+  max-width: 900px;
+  width: 100%;
+}
+
+.profilePic {
+  width: 150px;
+  height: 150px;
+  background: #838181ae;
+  border-radius: 50%;
+  margin-right: -80px;
+  margin-top: -65px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 3rem;
+  font-weight: 500;
+  margin-left: 65%;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 8fr 8fr;
+  gap: 3rem;
+}
+
+label {
+  display: block;
+  margin: 0.8rem 0;
+  font-size: 15px;
+  color: #333;
+  border-bottom: 8px;
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #b5b2b2ac;
+  border-radius: 6px;
+  outline: none;
+  margin-bottom: 8px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #b1a4d29f;
+}
+
+.editBtn {
+  margin-top: 1.5rem;
+  background: black;
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 80%;
+}
+
+.editBtn:hover {
+  background: #333;
+}

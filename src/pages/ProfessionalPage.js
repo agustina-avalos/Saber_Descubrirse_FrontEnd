@@ -12,11 +12,7 @@ function ProfessionalPage() {
             <section>
             <ListProfesionalCard />
             </section>
-
-
         </main>
-
-
         <Footer></Footer>
 
     </div>

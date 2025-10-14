@@ -1,0 +1,8 @@
+.container {
+  background-color: #EDE3FB;
+  min-height: 100vh; /* ocupa toda la pantalla */
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
