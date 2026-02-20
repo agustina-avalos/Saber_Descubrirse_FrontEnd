@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #ECDFDB;
+  background-color: #9beddf93;
   padding: 1rem 2rem;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .link:hover {
-  color: #FEDFAE;
+  color: #1d1d1dc8;
 }
 
 .button {
@@ -40,6 +40,6 @@
 }
 
 .button:hover {
-  background-color: #FEDFAE;
+  background-color: #4ceccf;
   color: black;
 }

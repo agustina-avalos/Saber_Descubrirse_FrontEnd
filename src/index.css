@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Layout to keep footer at the bottom when content is short */
+html, body, #root {
+  height: 100%;
+}
+
+.appRoot {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.appRoot > * {
+  /* make the routed page container expand so footer is pushed down */
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.appRoot main {
+  /* allow page main content to grow and take available space */
+  flex: 1 0 auto;
+}

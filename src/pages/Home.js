@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import ListCardEpx from "../components/cards/ListCardExp";
 import styles from "../css/Home.module.css"
-import logo from "../css/WhatsApp Image 2025-04-08 at 19.26.58final.png"
+import logo from "../css/centroDelSerLogo-removebg.png"
 
 
 
@@ -14,7 +14,7 @@ function Home() {
       <main>
         <section className={styles.section}>
           <div className={styles.containerintroTitle}>
-            <h1 className={styles.Title}>Saber Descubrirse</h1>
+            <h1 className={styles.Title}>Centro del Ser</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit in natoque himenaeos,
                taciti molestie cubilia felis lectus sagittis ornare nibh maecenas, 
                per augue imperdiet commodo nec scelerisque etiam ante dapibus. 
@@ -30,7 +30,7 @@ function Home() {
 
         <section className={styles.section}>
           <h2 className={styles.Title}>Como trabajamos</h2>
-          <p>Body text for your whole article or post. We’ll put in some lorem ipsum to show how a filled-out page might look:
+          <p>Body text for your whole articlcoe or post. We’ll put in some lorem ipsum to show how a filled-out page might look:
             Excepteur efficient emerging, minim veniam anim aute carefully curated Ginza conversation exquisite perfect nostrud nisi intricate Content. 
             Qui  international first-class nulla ut. Punctual adipisicing, essential lovely queen tempor eiusmod irure. 
             Exclusive izakaya charming Scandinavian impeccable aute quality of life soft power pariatur Melbourne occaecat discerning. 
@@ -48,7 +48,6 @@ function Home() {
           <ListCardEpx />
         </section>
       </main>
-
     <Footer></Footer>
     </div>
    )
