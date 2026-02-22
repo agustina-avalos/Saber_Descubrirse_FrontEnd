@@ -8,7 +8,8 @@ function ProfessionalPage() {
    return (
     <div className={styles.container}>
         <Navbar />
-        <main>
+        <main className={styles.main}>
+
             <section>
             <ListProfesionalCard />
             </section>

@@ -14,13 +14,6 @@ function ListContactCard() {
           email:"patrilarrosa@gmail.com",
           direccion:"rosario 688, Santa Clara de Buena Vista Santa, Santa Fe"
         },
-        {
-          name: 'Jesica Romina Graziano',
-          Professionalimg:jesicaImg,
-          telefono:"13336561",
-          email:"jesica@gmail.com",
-          direccion:"Pilar 688, Neuquen, Neuquen"
-        }
       ];
 
   return (

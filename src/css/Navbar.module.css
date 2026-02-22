@@ -57,7 +57,7 @@
 }
 
 .link:hover {
-  color: #FEDFAE;
+  color: #1d1d1dc8;
 }
 
 .button {
@@ -73,6 +73,6 @@
 }
 
 .button:hover {
-  background-color: #FEDFAE;
+  background-color: #4ceccf;
   color: black;
 }
