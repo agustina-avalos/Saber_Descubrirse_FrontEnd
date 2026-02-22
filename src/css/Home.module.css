@@ -24,9 +24,14 @@ html, body {
 }
 
 .Title{
-  font-size: 40px;
+  font-size: 60px;
   font-family:'Times New Roman', Times, serif;
+  margin-bottom: 2rem;
+  white-space: nowrap; 
+  display: inline-block;
+   margin-left: 0px;
 }
+
 
 .introTitle {
   font-size: 2.5rem;
@@ -40,11 +45,16 @@ html, body {
   font-size: 20px;
 }
 .containerLogo {
-  margin-left: 60%;
-  position:absolute;
-  top: 20%;
-
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 700px;    /* ancho visible del recorte */
+  height: 100%;    /* ocupa toda la altura */
+  overflow: hidden; /* recorta el logo dentro de este área */
+  z-index: 0;  
+  opacity: 0.7; 
 }
+
 
 .introImage {
   width: 100%;
@@ -60,7 +70,7 @@ html, body {
 
 .footer {
   background-color: #000000;
-  color: #fff;
+  color: #EDE3FB;
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
@@ -70,10 +80,139 @@ html, body {
 
 .footerBlock {
   margin: 1rem;
+
 }
 
-.socialIcon {
-  width: 24px;
-  margin: 0 0.5rem;
-  vertical-align: middle;
+.social{
+  color: #EDE3FB;
+  font-size: 24px;
+  margin: 0 5px;
 }
+
+/* --- Responsive para pantallas medianas (tablets) --- */
+@media (max-width: 1024px) {
+  .section {
+    padding: 3rem 3rem;
+    font-size: 18px;
+  }
+
+  .Title {
+    font-size: 50px;
+    white-space: normal; /* permite que baje a una línea si es necesario */
+  }
+
+  .titlePacientes {
+    font-size: 35px;
+    white-space: normal;
+  }
+
+  .containerintroTitle {
+    margin-right: 10%;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .containerLogo {
+    margin-left: 50%;
+    top: 15%;
+    position: absolute;
+  }
+
+  .introImage {
+    max-width: 300px;
+  }
+
+  .introText {
+    max-width: 90%;
+  }
+}
+
+/* --- Responsive para pantallas pequeñas (móviles) --- */
+@media (max-width: 768px) {
+  .section {
+    padding: 2rem 2rem;
+    font-size: 16px;
+  }
+
+  .Title {
+    font-size: 40px;
+    white-space: normal;
+    text-align: center;
+    display: block;
+    margin: 0 auto 1rem auto;
+  }
+
+
+  .containerintroTitle {
+    margin-right: 5%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .containerLogo {
+    margin-left: 30%;
+    top: 10%;
+    position: absolute;
+  }
+
+  .introImage {
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .introText {
+    max-width: 95%;
+    margin: 0 auto 1rem auto;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footerBlock {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+}
+
+/* --- Responsive para pantallas muy pequeñas (móviles pequeños) --- */
+@media (max-width: 480px) {
+  .section {
+    padding: 1.5rem 1rem;
+    font-size: 14px;
+  }
+
+  .Title {
+    font-size: 32px;
+  }
+
+  .containerintroTitle {
+    margin-right: 0;
+    font-size: 14px;
+  }
+
+  .containerLogo {
+    margin-left: 20%;
+    top: 5%;
+  }
+
+  .introImage {
+    max-width: 200px;
+  }
+
+  .introText {
+    max-width: 100%;
+  }
+
+  .footerBlock {
+    font-size: 14px;
+  }
+
+  .social {
+    font-size: 20px;
+    margin: 0 3px;
+  }
+}
+

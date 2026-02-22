@@ -1,4 +1,3 @@
-import React from 'react';
 import style from '../../css/ProfessionalCard.module.css';
 import ProfessionalCard from './ProfessionalCard';
 import patriciaImg from './../../css/fotoPatri.png';
@@ -15,7 +14,7 @@ function ListProfesionalCard() {
     {
       name: 'Jesica Romina Graziano',
       Professionalimg:jesicaImg,
-      description: 'Me llamo Jesica Romina GrazianoSoy lectora de Archivos Akáshicos y Facilitadora en Constelaciones FamiliaresAcompaño procesos de sanación emocional, espiritual y transgeneracional, creando un espacio amoroso donde puedas reconectar con tu alma, liberar memorias del pasado y transformar tu historia.Enfocándome en liberar bloqueos, sanar vínculos y transformar los patrones que se repiten en tu linaje.Trabajo desde la conexión con el alma y la fuerza del sistema familiar, para ayudarte a comprender tu historia, soltar cargas que no te pertenecen y abrir caminos nuevos con conciencia y amor.Un espacio sagrado para sanar y recordar quién sos.'
+      description: 'Me llamo Jesica Romina Graziano. Soy lectora de Archivos Akáshicos y Facilitadora en Constelaciones FamiliaresAcompaño procesos de sanación emocional, espiritual y transgeneracional, creando un espacio amoroso donde puedas reconectar con tu alma, liberar memorias del pasado y transformar tu historia.Enfocándome en liberar bloqueos, sanar vínculos y transformar los patrones que se repiten en tu linaje.Trabajo desde la conexión con el alma y la fuerza del sistema familiar, para ayudarte a comprender tu historia, soltar cargas que no te pertenecen y abrir caminos nuevos con conciencia y amor.Un espacio sagrado para sanar y recordar quién sos.'
     }
   ];
 

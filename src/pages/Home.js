@@ -42,14 +42,13 @@ function Home() {
             gravida natoque lacus hac congue ad mauris nunc curabitur, egestas at volut
           </p>
         </section>
-
         <section className={styles.section}>
-          <h2 className={styles.Title}>Experiencias de Nuestros Pacientes</h2>
+            <h2 className={styles.Title}>Nuestros Pacientes</h2>
           <ListCardEpx />
         </section>
       </main>
 
-    <Footer></Footer>
+    <Footer />
     </div>
    )
 }
